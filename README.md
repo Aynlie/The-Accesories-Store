@@ -1,4 +1,3 @@
-Sure! Here’s a clear and well-structured **README.md** file for your PHP activity (Part 1 – Discount Offer Page). You can include this in your project folder alongside your `index.php` file.
 
 ---
 
@@ -102,7 +101,4 @@ project-folder/
 └── README.md      # Documentation and usage guide
 ```
 
----
 
-Would you like me to also include a **section explaining each PHP variable and calculation** (like a mini variable reference table) inside the README?
-It can make it look more like a professional lab documentation.
