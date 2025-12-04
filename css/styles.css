@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #d3aab4;
+  color: #ffffff;
+  margin: 0px;
+  background-image: url("../img/Store.png");
+  background-size: 1500px;
+  background-position: right top;
+  background-repeat: repeat-y;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+  text-align: center;
+}
+
+table {
+  background-color: #ffacc0;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid white;
+  border-spacing: 0px;
+}
+  
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  background-color: #ffacc0;
+  color: #ffffff;
+}
+  
+td {
+  padding: 5px 10px;
+}
+
+a {
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #ffacc0;
+  border-radius: 40px;
+  margin: 10px auto;
+  width: 50%;
+  box-shadow: 0 2px 8px rgba(133,8,37,0.08);
+  text-align: center;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: .3em;
+}
+nav a:hover {
+  color: #fff;
+}
+ 
+.button {
+  background-color:#ffacc0;
+  color: #ff698c;
+  border-color: #fbccbf;
+  border-radius: 300px;
+  -webkit-transition: .3s background-color linear;
+  -moz-transition: .3s background-color linear;
+  -o-transition: .3s background-color linear;
+  transition: .3s background-color linear;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color:#ffacc0;
+  border-radius: 300px;
+  -webkit-transition: .1s background-color linear;
+  -moz-transition: .1s background-color linear;
+  -o-transition: .1s background-color linear;
+  transition: .1s background-color linear;
+  color: #ff698c;
+}
+  
+.offer {
+  text-transform: uppercase;  
+}
+
+.save-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px auto;
+  width: 250px;
+  height: 80px;
+  border-radius: 50%;
+  background:  #ffa2b8;
+  color:  #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffa2b8;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
